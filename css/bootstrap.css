@@ -31,7 +31,7 @@
   --500: #adb5bd;
   --testa: #e2ebec;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 370px;
+  --breakpoint-sm: 360px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
@@ -464,9 +464,9 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 370px) {
+  @media (min-width: 360px) {
     .container {
-      max-width: 334px; } }
+      max-width: 324px; } }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -708,7 +708,7 @@ pre {
 .offset-11 {
   margin-left: 91.66667%; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1537,7 +1537,7 @@ pre {
   .table-dark.table-hover tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.075); }
 
-@media (max-width: 370px) {
+@media (max-width: 360px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1938,7 +1938,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   align-items: center; }
   .form-inline .form-check {
     width: 100%; }
-  @media (min-width: 370px) {
+  @media (min-width: 360px) {
     .form-inline label {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3388,13 +3388,13 @@ tbody.collapse.show {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
-@media (max-width: 370px) {
+@media (max-width: 360px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .navbar-expand-sm {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -3775,7 +3775,7 @@ tbody.collapse.show {
   flex-direction: column; }
   .card-deck .card {
     margin-bottom: 15px; }
-  @media (min-width: 370px) {
+  @media (min-width: 360px) {
     .card-deck {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -3808,7 +3808,7 @@ tbody.collapse.show {
   flex-direction: column; }
   .card-group > .card {
     margin-bottom: 15px; }
-  @media (min-width: 370px) {
+  @media (min-width: 360px) {
     .card-group {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -3861,7 +3861,7 @@ tbody.collapse.show {
 .card-columns .card {
   margin-bottom: 0.75rem; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .card-columns {
     -webkit-column-count: 3;
     column-count: 3;
@@ -4092,7 +4092,7 @@ tbody.collapse.show {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem; }
-  @media (min-width: 370px) {
+  @media (min-width: 360px) {
     .jumbotron {
       padding: 4rem 2rem; } }
 
@@ -4615,7 +4615,7 @@ button.close {
   height: 50px;
   overflow: scroll; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .modal-dialog {
     max-width: 300px;
     margin: 1.75rem auto; }
@@ -5260,7 +5260,7 @@ button.bg-testa:focus {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .d-sm-none {
     display: none !important; }
   .d-sm-inline {
@@ -5547,7 +5547,7 @@ button.bg-testa:focus {
   -ms-flex-item-align: stretch !important;
   align-self: stretch !important; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .flex-sm-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -5980,7 +5980,7 @@ button.bg-testa:focus {
 .float-none {
   float: none !important; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .float-sm-left {
     float: left !important; }
   .float-sm-right {
@@ -6424,7 +6424,7 @@ button.bg-testa:focus {
 .mx-auto {
   margin-left: auto !important; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .m-sm-0 {
     margin: 0 !important; }
   .mt-sm-0,
@@ -7405,7 +7405,7 @@ button.bg-testa:focus {
 .text-center {
   text-align: center !important; }
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
   .text-sm-left {
     text-align: left !important; }
   .text-sm-right {
