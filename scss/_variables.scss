@@ -45,6 +45,7 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 $testa:  #e2ebec !default;
+$testa:  #2d5458 !default;
 
 $colors: () !default;
 $colors: map-merge((
@@ -61,7 +62,8 @@ $colors: map-merge((
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800,
-  "testa":      $testa
+  "testa":      $testa,
+  "testb":      $testb
 ), $colors);
 
 $primary:       $blue !default;
@@ -85,7 +87,7 @@ $theme-colors: map-merge((
   "light":      $light,
   "dark":       $dark,
   "pink":       $pink,
-  "500":        #adb5bd,
+  "a500":        #adb5bd,
   "testa":     $testa
 ), $theme-colors);
 // stylelint-enable
@@ -174,7 +176,7 @@ $paragraph-margin-bottom:   1rem !default;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 370px,   //sm: 576px,
+  sm: 350px,   //sm: 576px,
   md: 768px,
   lg: 992px,
   xl: 1200px
@@ -189,7 +191,7 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 334px,//sm: 540px,
+  sm: 314px,//sm: 540px,
   md: 720px,
   lg: 960px,
   xl: 1140px
